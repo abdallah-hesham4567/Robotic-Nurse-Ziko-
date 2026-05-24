@@ -5,27 +5,27 @@
 
 ## 📋 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Hardware Components](#hardware-components)
-- [System Architecture](#system-architecture)
-- [Communication Protocols](#communication-protocols)
-- [Software Architecture](#software-architecture)
-- [How the Robot Works](#how-the-robot-works)
-- [Motor Control Logic](#motor-control-logic)
-- [Interrupt Handling](#interrupt-handling)
-- [GSM SMS Flow](#gsm-sms-flow)
-- [LCD Interface](#lcd-interface)
-- [Assembly Code Structure](#assembly-code-structure)
-- [Pin Connections](#pin-connections)
-- [Setup Instructions](#setup-instructions)
-- [Challenges Faced](#challenges-faced)
+- [Project Overview](#-project-overview)
+- [Features](#-features)
+- [Hardware Components](#-hardware-components)
+- [System Architecture](#-system-architecture)
+- [Communication Protocols](#-communication-protocols)
+- [Software Architecture](#-software-architecture)
+- [How the Robot Works](#-how-the-robot-works)
+- [Motor Control Logic](#-motor-control-logic)
+- [Interrupt Handling](#-interrupt-handling)
+- [GSM SMS Flow](#-gsm-sms-flow)
+- [LCD Interface](#-lcd-interface)
+- [Assembly Code Structure](#-assembly-code-structure)
+- [Pin Connections](#-pin-connections)
+- [Setup Instructions](#-setup-instructions)
+- [Challenges Faced](#-challenges-faced)
 - [Project Gallery](#project-gallery)
-- [Contributors](#contributors)
+- [Contributors](#-contributors)
 
 ---
 
-## 📌 Project Overview
+## 📌 Project-Overview
 
 The **Robotic Nurse Assistant** is a microprocessor course project built around the **STM32F401RCT6** ARM Cortex-M4 microcontroller. The entire firmware was written in **ARM Assembly**.
 
@@ -403,7 +403,7 @@ The LCD is connected via an **I2C backpack** (PCF8574 I/O expander). All communi
 
 ---
 
-## project-overview
+## Project-Gallery
 
 ### 📸 Photos
 
@@ -416,7 +416,7 @@ The LCD is connected via an **I2C backpack** (PCF8574 I/O expander). All communi
 
 | Video | Description |
 |---|---|
-| [📱 SMS Testing]((https://drive.google.com/file/d/1ZhcokTljZK90xDJjAGgwmMymoWi-Lifq/view?usp=drive_link)) | SIM800L sending emergency and patient request SMS alerts via USART1 AT commands |
+| [📱 SMS Testing](https://drive.google.com/file/d/1ZhcokTljZK90xDJjAGgwmMymoWi-Lifq/view?usp=drive_link) | SIM800L sending emergency and patient request SMS alerts via USART1 AT commands |
 | [🔔 Robot Ring / Audio](https://drive.google.com/file/d/1uhTMvsidw-IoVPXe2Mzyv1zYMgSA-ZNL/view?usp=drive_link) | DFPlayer audio notification system playing pre-recorded alerts |
 | [🔄 360° View & Movement](https://drive.google.com/file/d/11GONHEGwSxaOF7qzNA99Y5vbGS1wmrRp/view?usp=drive_link) | Full robot overview with live differential drive movement demo — forward, backward, left, right |
 | [🦾 Robotic Arm](https://drive.google.com/file/d/11vmQge6gEoCyOmKDpHcNmTbRrLkG8fAQ/view?usp=drive_link) | Fixed arm sequence: move down → pick up medicine → lift |
