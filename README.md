@@ -20,7 +20,6 @@
 - [Pin Connections](#pin-connections)
 - [Setup Instructions](#setup-instructions)
 - [Challenges Faced](#challenges-faced)
-- [Future Improvements](#future-improvements)
 - [Project Gallery](#project-gallery)
 - [Contributors](#contributors)
 
@@ -410,7 +409,7 @@ The LCD is connected via an **I2C backpack** (PCF8574 I/O expander). All communi
 
 | | |
 |---|---|
-| ![Robot Front View](images/robot_front.jpg) | ![LCD Display](images/lcd_display.jpg) |
+| ![Robot Front View](images/robot_front.jpeg) | ![LCD Display](images/lcd_display.jpeg) |
 | Robot Front View | LCD Temperature Display |
 
 ### 🎥 Demo Videos
